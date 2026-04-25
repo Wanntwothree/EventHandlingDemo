@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  flex-direction: column;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus, button:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}   
